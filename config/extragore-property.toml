@@ -1,0 +1,179 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "minecraft:giant",
+    "minecraft:trader_llama",
+    "minecraft:horse",
+    "butcher:zombiefox",
+    "minecraft:llama",
+    "minecraft:husk",
+    "naturalist:firefly",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "butcher:thehelper",
+    "minecraft:donkey",
+    "naturalist:bear",
+    "crittersandcompanions:jumping_spider",
+    "naturalist:vulture",
+    "naturalist:zebra",
+    "minecraft:piglin_brute",
+    "minecraft:bee",
+    "naturalist:giraffe",
+    "minecraft:illusioner",
+    "butcher:shell_boat",
+    "minecraft:mooshroom",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "naturalist:deer",
+    "butcher:zombiegoat",
+    "naturalist:moose",
+    "minecraft:parrot",
+    "naturalist:elephant",
+    "minecraft:wandering_trader",
+    "naturalist:cardinal",
+    "minecraft:frog",
+    "crittersandcompanions:shima_enaga",
+    "naturalist:alligator",
+    "crittersandcompanions:sea_bunny",
+    "minecraft:mule",
+    "naturalist:boar",
+    "crittersandcompanions:red_panda",
+    "minecraft:vindicator",
+    "crittersandcompanions:leaf_insect",
+    "minecraft:evoker",
+    "minecraft:pufferfish",
+    "crittersandcompanions:ferret",
+    "butcher:zombiepig",
+    "minecraft:fox",
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "minecraft:hoglin",
+    "naturalist:rhino",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "minecraft:pig",
+    "minecraft:turtle",
+    "naturalist:rattlesnake",
+    "minecraft:sheep",
+    "butcher:zombiecat",
+    "butcher:zombiellama",
+    "minecraft:goat",
+    "minecraft:cod",
+    "naturalist:robin",
+    "naturalist:tortoise",
+    "butcher:zombie_cow",
+    "minecraft:ravager",
+    "minecraft:cow",
+    "naturalist:duck",
+    "minecraft:salmon",
+    "naturalist:bluejay",
+    "crittersandcompanions:dumbo_octopus",
+    "crittersandcompanions:dragonfly",
+    "naturalist:bass",
+    "minecraft:rabbit",
+    "tacz_npc:bandit",
+    "minecraft:pillager",
+    "butcher:zombiepanda",
+    "minecraft:zoglin",
+    "naturalist:butterfly",
+    "butcher:zombiechicken",
+    "naturalist:dragonfly",
+    "crittersandcompanions:koi_fish",
+    "minecraft:bat",
+    "naturalist:sparrow",
+    "crittersandcompanions:otter",
+    "minecraft:piglin",
+    "naturalist:hippo",
+    "butcher:zombiewolf",
+    "naturalist:snake",
+    "naturalist:lion",
+    "naturalist:lizard_tail",
+    "naturalist:canary",
+    "naturalist:caterpillar",
+    "minecraft:sniffer",
+    "naturalist:catfish",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "minecraft:cat",
+    "naturalist:lizard",
+    "minecraft:tropical_fish",
+    "naturalist:coral_snake",
+    "naturalist:snail",
+    "naturalist:finch",
+    "minecraft:ocelot",
+    "minecraft:wolf",
+    "minecraft:panda",
+    "minecraft:zombie_villager"
+]
