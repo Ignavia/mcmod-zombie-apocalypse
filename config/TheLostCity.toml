@@ -1,0 +1,19 @@
+#Should cars spawn?
+SpawnCars = true
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+CitySpacing = 64
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+CitySeparation = 32
+#Should Cars spawn?
+CityBiomes = ["plains", "snowy_plains", "sunflower_plains"]
+#Should Cars spawn?
+VillagesCityBiomes = ["plains", "snowy_plains", "sunflower_plains"]
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+VillagesCitySeparation = 32
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+VillagesCitySpacing = 64
+

@@ -11,7 +11,7 @@
   "downLogging": true,
   "reviveMessage": true,
   "foodReviveList": "minecraft:enchanted_golden_apple",
-  "foodAdrenalineList": "",
+  "foodAdrenalineList": "minecraft:golden_apple",
   "foodHealList": "minecraft:golden_apple",
   "downTicks": 1200,
   "reviveTicks": 80,
@@ -25,7 +25,7 @@
   "healPercentageOfMaxHealth": true,
   "reviveHealth": .5,
   "reviveHunger": 10,
-  "reviveSaturation": 6,
+  "reviveSaturation": -1,
   "shouldDownTimeReset": true,
   "shouldDisableFallFlying": false,
   "shouldDieOnTimeout": true,
@@ -34,3 +34,4 @@
   "DANGERDisableIncapPlayerDamage": false,
   "DANGERFullServerKill": false
 }
+
