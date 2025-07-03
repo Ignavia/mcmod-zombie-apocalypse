@@ -3,6 +3,6 @@
     "mob": "minecraft:zombie",
     "seesky": true,
     "when": "onjoin",
-    "result": "default"
+    "result": "allow"
   }
 ]

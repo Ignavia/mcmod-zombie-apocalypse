@@ -12,3 +12,8 @@ tacz
 tacz_backup
 usercache.json
 usernamecache.json
+.mixin.out
+servers.dat
+servers.dat_old
+XaeroWaypoints
+xaero

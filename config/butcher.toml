@@ -1,7 +1,7 @@
 
 [General]
 	#Only butchery knives cause corpses/carcasses to drop. Disable to allow any tool/weapon to cause them to drop.
-	"Specific Tools Only" = true
+	"Specific Tools Only" = false
 	#Enable/Disable first join message.
 	"First Join Message" = true
 	#Enable/Disable End Dragon armor
