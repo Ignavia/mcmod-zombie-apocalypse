@@ -1,0 +1,42 @@
+
+#Saro's Random Spawn Configuration
+[general]
+	#Minimum distance from spawn to teleport players (in blocks)
+	#Range: 0 ~ 10000
+	minDistance = 500
+	#Maximum distance from spawn to teleport players (in blocks)
+	#Range: 100 ~ 30000
+	maxDistance = 2000
+	#Whether to teleport players on every join, not just the first time
+	teleportOnEveryJoin = false
+	#Whether to allow teleportation in the Nether dimension
+	allowNetherTeleport = false
+	#Whether to allow teleportation in the End dimension
+	allowEndTeleport = false
+
+#Message Settings
+[messages]
+	#Whether to show a message to players when they are teleported
+	showTeleportMessage = false
+	#Message to show to players when they are teleported
+	teleportMessage = "You have been teleported to a random location!"
+
+#Safety Settings
+[safety]
+	#If true, ensures players are teleported to safe locations (not in lava, caves, etc.)
+	safeTeleport = true
+	#If true, players will spawn at Y=100 with slow falling effect and gently float down to the ground
+	spawnHighWithSlowFalling = false
+
+#Debug Settings
+[debug]
+	#If true, enables detailed debug logging to help diagnose issues
+	debugMode = false
+
+#Player Exception Settings
+[exceptions]
+	#If true, only players in the list will be teleported. If false, players in the list will NOT be teleported.
+	useWhitelist = false
+	#List of player names to whitelist or blacklist from teleportation
+	playerExceptions = ["ExamplePlayer1", "ExamplePlayer2"]
+
