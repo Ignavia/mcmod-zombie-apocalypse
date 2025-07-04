@@ -13,7 +13,7 @@
 	#Enable/Disable blood spreading
 	"Blood Spread" = true
 	#Enable/Disable carcass weight effects
-	"Carcass Weight" = true
+	"Carcass Weight" = false
 	#Enable/Disable blocks weight effects
 	"Block Weight" = false
 	#Enable/Disable pillager disguise blending affect
@@ -55,7 +55,7 @@
 
 ["Mod Compatiblities"]
 	#Enable/Disable farmers delight foods as drops
-	"Farmer's Delight" = false
+	"Farmer's Delight" = true
 	#Enable to make TFC mobs drop carcasses
 	"Terra Firma Craft Carcasses" = false
 	#Enable to use TFC drops instead of Butchery drops
@@ -72,7 +72,7 @@
 	Hexerei = true
 
 ["Carcasses/Corpses"]
-	Player = true
+	Player = false
 	Bat = true
 	Chicken = true
 	Cow = true

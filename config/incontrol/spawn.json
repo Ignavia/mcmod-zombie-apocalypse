@@ -1,8 +1,36 @@
 [
   {
     "mob": "minecraft:zombie",
-    "seesky": true,
+    "inbuilding": true,
     "when": "onjoin",
-    "result": "allow"
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": true,
+    "random": 0.9,
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "seesky": true,
+    "random": 0.3,
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "nbt": {
+    	"IsBaby" : true
+	},
+    "when": "onjoin",
+    "result": "deny"
   }
 ]
