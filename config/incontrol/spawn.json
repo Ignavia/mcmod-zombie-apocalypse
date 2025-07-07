@@ -1,6 +1,12 @@
 [
   {
     "mob": "minecraft:zombie",
+    "baby": true,
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
     "inbuilding": true,
     "when": "onjoin",
     "result": "default"
@@ -24,13 +30,6 @@
     "random": 0.1,
     "when": "onjoin",
     "result": "default"
-  },
-  {
-    "mob": "minecraft:zombie",
-    "nbt": {
-    	"IsBaby" : true
-	},
-    "when": "onjoin",
-    "result": "deny"
   }
 ]
+

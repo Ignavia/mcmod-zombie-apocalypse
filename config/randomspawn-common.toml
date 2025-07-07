@@ -3,7 +3,7 @@
 [general]
 	#Minimum distance from spawn to teleport players (in blocks)
 	#Range: 0 ~ 10000
-	minDistance = 500
+	minDistance = 80
 	#Maximum distance from spawn to teleport players (in blocks)
 	#Range: 100 ~ 30000
 	maxDistance = 2000

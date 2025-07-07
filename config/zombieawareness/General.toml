@@ -8,17 +8,17 @@
 	awareness_Light_OnlyZombies = true
 	#Custom targetting sight range on top of vanilla sight based targetting
 	#Range: > -2147483648
-	sightRange = 8
+	sightRange = 0
 	#Always target closest player [performance sensitive]
 	omniscient = false
 	#skips line of sight check on targetting [performance sensitive]
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
 	#Range: > -2147483648
-	scentStrength = 16
+	scentStrength = 8
 	#Effects how far monsters will sense sound sources from
 	#Range: > -2147483648
-	soundStrength = 16
+	soundStrength = 8
 	#max rate of spawning sound sources in milliseconds
 	#Range: > -2147483648
 	frequentSoundThreshold = 1000
@@ -33,16 +33,16 @@
 	tickRatePlayerLoop = 20
 	#How long before a mob can move around again to track a light source, or scent, or sound, increase number to reduce performance impact of mod if needed
 	#Range: > -2147483648
-	tickCooldownBetweenPathfinds = 400
+	tickCooldownBetweenPathfinds = 100
 	#How likely zombies making noise near you will attract other zombies, higher = less likely, 0 = every time they make a noise
 	#Range: > -2147483648
 	noisyZombiesReinforceOddsTo1 = 10
 	#-
-	debugConsole = false
+	debugConsole = true
 	#-
-	debugConsoleOmniscient = false
+	debugConsoleOmniscient = true
 	#-
-	debugConsoleSuperDetailed = false
+	debugConsoleSuperDetailed = true
 	#Minimum distance required between active sense sources, prevents spamming sources [performance sensitive]
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	extraScentCutoffRange = 5.0

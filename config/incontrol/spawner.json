@@ -1,7 +1,7 @@
 [
   {
     "mob": "minecraft:zombie",
-    "persecond": 0.05,
+    "persecond": 0.02,
     "attempts": 30,
     "amount": {
       "minimum": 1,
@@ -10,9 +10,10 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "norestrictions": true,
-      "mindist": 50,
-      "maxdist": 100,
-      "maxthis": 20
+      "mindist": 30,
+      "maxdist": 50,
+      "maxthis": 100
     }
   }
 ]
+
