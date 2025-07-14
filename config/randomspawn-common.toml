@@ -3,10 +3,10 @@
 [general]
 	#Minimum distance from spawn to teleport players (in blocks)
 	#Range: 0 ~ 10000
-	minDistance = 80
+	minDistance = 32
 	#Maximum distance from spawn to teleport players (in blocks)
 	#Range: 100 ~ 30000
-	maxDistance = 2000
+	maxDistance = 100
 	#Whether to teleport players on every join, not just the first time
 	teleportOnEveryJoin = false
 	#Whether to allow teleportation in the Nether dimension

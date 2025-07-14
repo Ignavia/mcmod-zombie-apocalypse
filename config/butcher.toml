@@ -96,7 +96,7 @@
 	Camel = true
 	"Glow Squid" = true
 	Skeleton = true
-	Zombie = true
+	Zombie = false
 	Witch = true
 	Creeper = true
 	Pillager = true
@@ -124,7 +124,7 @@
 	Shulker = true
 	Silverfish = true
 	Zoglin = true
-	"Zombie Villager" = true
+	"Zombie Villager" = false
 	Cat = true
 
 [Seasonal]

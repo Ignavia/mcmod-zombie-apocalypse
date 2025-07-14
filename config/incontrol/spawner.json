@@ -1,17 +1,33 @@
 [
   {
     "mob": "minecraft:zombie",
-    "persecond": 0.02,
-    "attempts": 30,
+    "persecond": 0.05,
+    "attempts": 50,
     "amount": {
-      "minimum": 1,
-      "maximum": 2
+      "minimum": 10,
+      "maximum": 30
     },
     "conditions": {
       "dimension": "minecraft:overworld",
-      "norestrictions": true,
       "mindist": 30,
       "maxdist": 50,
+      "minheight": 60,
+      "maxthis": 100
+    }
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "persecond": 0.05,
+    "attempts": 50,
+    "amount": {
+      "minimum": 5,
+      "maximum": 15
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 32,
+      "minheight": 60,
       "maxthis": 100
     }
   }

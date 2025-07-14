@@ -5,7 +5,8 @@
   "excludeMode": "ONLY",
   "excludeList": [
     "minecraft:glow_item_frame",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "zombieawareness:scent"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
@@ -14,7 +15,7 @@
     "displayHeight": 0.0,
     "heightBasedFade": true,
     "renderOrder": 0.0,
-    "color": 13.0,
+    "color": 7.0,
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
@@ -22,11 +23,31 @@
     "dotSize": 2.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 1.0,
-    "heightLimit": 20.0,
     "names": 0.0,
+    "heightLimit": 20.0,
     "iconScale": 1.0
   },
   "subCategories": [
+    {
+      "hardInclude": "nothing",
+      "includeList": [
+        "minecraft:zombie",
+        "minecraft:zombie_villager"
+      ],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "Target",
+      "protection": false,
+      "settingOverrides": {
+        "displayHeight": 1.0,
+        "displayed": true,
+        "heightBasedFade": true,
+        "names": 2.0,
+        "color": 13.0
+      },
+      "subCategories": []
+    },
     {
       "hardInclude": "living",
       "includeList": [],
@@ -116,7 +137,10 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "renderOrder": 3.0
+            "displayHeight": 1.0,
+            "heightBasedFade": true,
+            "renderOrder": 3.0,
+            "color": 12.0
           },
           "subCategories": [
             {
@@ -142,7 +166,9 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
-          "settingOverrides": {},
+          "settingOverrides": {
+            "displayed": false
+          },
           "subCategories": [
             {
               "hardInclude": "tamed",
@@ -171,7 +197,7 @@
       "protection": true,
       "settingOverrides": {
         "renderOrder": 1.0,
-        "color": 12.0
+        "color": 11.0
       },
       "subCategories": []
     },
@@ -184,7 +210,10 @@
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
-        "color": 5.0
+        "displayed": false,
+        "names": 1.0,
+        "color": 5.0,
+        "displayNameWhenIconFails": true
       },
       "subCategories": []
     }

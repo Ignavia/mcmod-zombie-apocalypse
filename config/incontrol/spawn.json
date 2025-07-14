@@ -1,35 +1,69 @@
 [
   {
+    "mob": "minecraft:zombie_villager",
+    "mintime": 0,
+    "maxtime": 12999,
+    "when": "position",
+    "result": "deny"
+  },
+  {
     "mob": "minecraft:zombie",
-    "baby": true,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "random": 0.8,
+    "seesky": false,
     "when": "onjoin",
     "result": "deny"
   },
   {
     "mob": "minecraft:zombie",
+    "random": 0.9,
+    "incity": false,
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "random": 0.5,
     "inbuilding": true,
     "when": "onjoin",
-    "result": "default"
+    "result": "deny"
   },
   {
-    "mob": "minecraft:zombie",
-    "incity": true,
-    "random": 0.9,
+    "mob": "minecraft:zombie_villager",
+    "seesky": false,
     "when": "onjoin",
-    "result": "default"
+    "result": "deny"
   },
   {
-    "mob": "minecraft:zombie",
-    "seesky": true,
-    "random": 0.3,
+    "mob": ["minecraft:zombie","minecraft:zombie_villager"],
+    "random": 0.5,
+    "seesky": false,
+    "minlight": 1,
     "when": "onjoin",
-    "result": "default"
+    "result": "deny"
   },
   {
-    "mob": "minecraft:zombie",
-    "random": 0.1,
+    "mob": ["minecraft:zombie","minecraft:zombie_villager"],
+    "seesky": false,
+    "minlight": 7,
     "when": "onjoin",
-    "result": "default"
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:zombie","minecraft:zombie_villager"],
+    "incontrol": false,
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:zombie_villager"],
+    "baby": true,
+    "when": "onjoin",
+    "result": "deny"
   }
 ]
 

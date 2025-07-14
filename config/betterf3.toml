@@ -26,6 +26,26 @@
 		sounds = true
 		mood = true
 
+[[modules_right]]
+	name = "location"
+	name_color = 43520
+	value_color = 5636095
+	enabled = true
+
+	[modules_right.lines]
+		light = true
+		biome = false
+		rotation = true
+		facing = true
+		slime_chunk = false
+		local_difficulty = false
+		day_ticks = false
+		days_played = false
+		dimension = false
+		highest_block = false
+		highest_block_server = false
+		light_server = true
+
 [[modules_left]]
 	name = "minecraft"
 	name_color = 10506797

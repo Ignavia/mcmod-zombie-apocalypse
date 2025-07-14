@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "on": "mob_killed",
+    "parameters": {
+      	"mob": ["minecraft:zombie","minecraft:zombie_villager"]
+    },
+    "conditions": {
+    	"phase": "dayTime"
+    },
+    "command": ["/tp @e[type=minecraft:zombie_villager] ~ -64 ~"]
+  }
+]
