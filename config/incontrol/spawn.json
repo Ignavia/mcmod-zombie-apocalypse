@@ -9,7 +9,7 @@
   {
     "mob": "minecraft:zombie",
     "when": "position",
-    "result": "deny"
+    "result": "allow"
   },
   {
     "mob": "minecraft:zombie",
@@ -41,14 +41,12 @@
   {
     "mob": ["minecraft:zombie","minecraft:zombie_villager"],
     "random": 0.5,
-    "seesky": false,
     "minlight": 1,
     "when": "onjoin",
     "result": "deny"
   },
   {
     "mob": ["minecraft:zombie","minecraft:zombie_villager"],
-    "seesky": false,
     "minlight": 7,
     "when": "onjoin",
     "result": "deny"

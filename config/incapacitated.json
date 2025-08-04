@@ -16,7 +16,7 @@
   "downTicks": 1200,
   "reviveTicks": 80,
   "downCounter": 3,
-  "glowingWhileDowned": true,
+  "glowingWhileDowned": false,
   "someInstantKills": true,
   "instantKills": "wither,lava,outOfWorld",
   "globalIncapMessage": false,
@@ -25,13 +25,13 @@
   "healPercentageOfMaxHealth": true,
   "reviveHealth": .5,
   "reviveHunger": 10,
-  "reviveSaturation": -1,
+  "reviveSaturation": 0,
   "shouldDownTimeReset": true,
   "shouldDisableFallFlying": false,
   "shouldDieOnTimeout": true,
   "incapEffectData": [],
   "DANGERDisableGiveUp": false,
-  "DANGERDisableIncapPlayerDamage": false,
+  "DANGERDisableIncapPlayerDamage": true,
   "DANGERFullServerKill": false
 }
 

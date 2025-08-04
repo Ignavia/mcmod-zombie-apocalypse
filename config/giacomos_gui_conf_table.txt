@@ -1,0 +1,11 @@
+xaerominimap:xaero=0.0,0.0,1.0,1.0,0.0
+lrtactical:lrt_interact_key_overlay=0.0,0.0,1.0,1.0,0.0
+minecraft:food_level=0.0,0.0,1.0,1.0,0.0
+tacz:tac_kill_amount_overlay=0.0,0.0,1.0,1.0,0.0
+tacz:tac_gun_hud_overlay=-3.0,-124.0,1.0,1.0,0.0
+spartanweaponry:oil_uses=0.0,0.0,1.0,1.0,0.0
+lrtactical:lr_using_progress=0.0,0.0,1.0,1.0,0.0
+tacz:tac_interact_key_overlay=0.0,0.0,1.0,1.0,0.0
+xaeroworldmap:xaero_wm_crosshair_message=0.0,0.0,1.0,1.0,0.0
+spartanweaponry:quiver_ammo=0.0,0.0,1.0,1.0,0.0
+tacz:tac_heat_bar=0.0,0.0,1.0,1.0,0.0

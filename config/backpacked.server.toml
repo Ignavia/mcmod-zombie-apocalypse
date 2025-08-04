@@ -50,7 +50,7 @@
 	keepOnDeath = false
 	# The amount of slot rows in the backpack inventory.
 	# Valid range: 1 to 7 (inclusive)
-	inventorySizeRows = 6
+	inventorySizeRows = 4
 	# Allows every player to use any backpack cosmetic variant without needing to complete the challenges. Side note, any progress to a challenge will not be tracked while enabled.
 	# Valid values: true, false
 	unlockAllCosmetics = false
@@ -59,7 +59,7 @@
 	disableCustomisation = false
 	# The amount of slot columns in the backpack inventory.
 	# Valid range: 1 to 13 (inclusive)
-	inventorySizeColumns = 9
+	inventorySizeColumns = 7
 	# Stops players from removing the backpack if it's not empty. This prevents players from carrying multiple backpacks.
 	# Valid values: true, false
 	lockIntoSlot = true

@@ -17,7 +17,7 @@
 #Message Settings
 [messages]
 	#Whether to show a message to players when they are teleported
-	showTeleportMessage = false
+	showTeleportMessage = true
 	#Message to show to players when they are teleported
 	teleportMessage = "You have been teleported to a random location!"
 
